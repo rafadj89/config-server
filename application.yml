@@ -20,9 +20,9 @@ eureka:
     #The changes are effective at runtime at the next service url refresh cycle as specified by eurekaServiceUrlPollIntervalSeconds.
     serviceUrl:
       defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
-      
-spring:
-  activemq:
-    broker-url: tcp://127.0.0.1:61616
-    user: admin
+
+#spring:
+#activemq:
+#broker-url: tcp://127.0.0.1:61616
+#user: admin
     password: admin
