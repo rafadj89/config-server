@@ -1,0 +1,13 @@
+zuul:
+  #ignoredServices: "*"
+  prefix: /api
+  #routes:
+   # product: /product/**
+
+info:
+  component: zabud yinn Api Gateway
+  
+server:
+  port: 8086
+  #ssl:
+  #  enabled: false

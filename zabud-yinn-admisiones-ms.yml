@@ -1,0 +1,7 @@
+server:
+  port: 0
+
+info:
+  component: Academic Admission Microservice
+  
+message: Hello World!
