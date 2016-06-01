@@ -13,7 +13,8 @@ mensajes:
     queue:
         eventosnf: eventosnf
         eventosfacultad : eventosfacultad
-        
+        input: reportq-out
+        output: reportq-in
 #===============================        
 spring:
     datasource:
